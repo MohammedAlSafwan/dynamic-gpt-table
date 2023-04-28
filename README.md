@@ -2,7 +2,7 @@
 
 This project demonstrates the power of combining React, Material-UI, and OpenAI's GPT-4 to create a dynamic table design. Users can add new columns to the table, and GPT-4 will automatically fill in the data for the new column based on the existing data in the table.
 
-![Demo](./demo.gif)
+![Demo](./assets/demo.gif)
 
 ## Features
 
