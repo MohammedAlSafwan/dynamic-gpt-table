@@ -16,7 +16,7 @@ function App() {
     ],
   };
   const openaiEngine = 'text-davinci-003'
-  const apiKey = 'your_open_ai_token'
+  const apiKey = 'your_open_ai_api_key'
   return (
     <div className="App">
       <DynamicTable

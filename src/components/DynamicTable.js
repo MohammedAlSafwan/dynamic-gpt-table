@@ -40,11 +40,11 @@ const DynamicTable = ({ openaiEngine, apiKey, initData }) => {
             n: 1,
             stop: null,
             temperature: 0.5,
-          }).catch(()=>{});
-        console.log(`response: ${JSON.stringify(response.data.choices[0].text?.trim().replace('\n',''))}`)
-        if(response.data.choices){
-            return response.data.choices[0]?.text?.trim().replace('\n','');
-        }else{
+        }).catch(() => { });
+        console.log(`response: ${JSON.stringify(response.data.choices[0].text?.trim().replace('\n', ''))}`)
+        if (response.data.choices) {
+            return response.data.choices[0]?.text?.trim().replace('\n', '');
+        } else {
             return ''
         }
     };
