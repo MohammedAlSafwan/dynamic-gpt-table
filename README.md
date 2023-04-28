@@ -24,7 +24,7 @@ This project demonstrates the power of combining React, Material-UI, and OpenAI'
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/dynamic-table.git
+git clone https://github.com/MohammedAlSafwan/dynamic-table.git
 ```
 
 2. Install dependencies:
